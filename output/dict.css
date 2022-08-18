@@ -1,0 +1,28 @@
+html,body{
+    padding: 10px;
+}
+
+.entry {
+    font-size: small !important;
+}
+
+.lema {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.lema::after {
+    content: ' ';
+}
+
+.lema.missing{
+    color: brown;
+}
+
+.entry > .word:first-child > .lema {    
+    font-size: medium !important;
+}
+
+/* indent */
+.entry {
+    text-indent: -0.8em !important;
+}
